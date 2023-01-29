@@ -1,0 +1,134 @@
+<!--lecture 22 i want to display my info on the right side of my profile pic-->
+<!--though this has to be done by CSS but if only html is to used then it can be done using the -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Parth Sood personal website
+    </title>
+</head>
+
+<body>
+   <!--
+    <a href="https://www.quora.com/Who-is-Parth-in-Mahabharata" target ="_blank"><img src = "WIN_20220131_21_58_59_Pro.jpg" widht = "1000" alt = "image of parth sood "></a>
+    <h1>PARTH SOOD</h1>
+    <h2>Son of Munita Sood and Suresh Kumar Sood</h2>
+    <p>Indian
+        Hobbies are - <em>sleeping</em> and <strong>wasting time</strong></p>
+    <p>I also love to critize others </p>
+    -->
+    <table cellspacing = "20"><!-- cell spacing gives some distance between the 2  columns -->
+        <tr>
+            <td><img src="WIN_20220131_21_58_59_Pro.jpg" height="500" width="500" alt="image of Mr. PARTH"></td>
+            <td>
+                <h1> PARTH SOOD</h1>
+                <h2>Son of Munita Sood and Suresh Kumar Sood</h2>
+                <p>Indian
+                    Hobbies are - <em>sleeping</em> and <strong>wasting time</strong></p>
+                <p>I also love to critize others </p>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <hr size=" 3" noshade>
+
+    <!--using em==i and bold == strong-->
+    <h2>Educational History</h2>
+    <p>primary schooling at <em>St. Joseph's Convent School, <strong><a
+                    href="https://en.wikipedia.org/wiki/Hoshiarpur">Hoshiarpur</a></strong></em>
+        <br>
+        secondary enducation at <em><a href="chaudhary_balbir-school.html" target="_blank">Ch. Balbir Singh Public
+                School</a>, <strong>Chandigarh</strong></em>
+    </p>
+
+    <hr size="3" noshade>
+
+    <!--using unordered list(nested)-->
+    <h3>what i eat</h3>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Apple" target="_blank">apple</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/egg">eggs</a></li>
+        <li>protein</li>
+        <ul>
+            <li>plant protein</li>
+            <li>animal protein
+                <ul>
+                    <li><a href="https://i.guim.co.uk/img/media/5dab212de07d8009dd06560efeb1ac87b114e23d/0_640_4183_2510/master/4183.jpg?width=1200&quality=85&auto=format&fit=max&s=f7bd44e630a1452a8c20f303d8bed1ac"
+                            target="_blank">dinasour</a></li>
+                    <li>fish</li>
+                </ul>
+            </li>
+        </ul>
+        <li><a href="https://en.wikipedia.org/wiki/chicken">chicken</a></li>
+    </ul>
+    </ul>
+
+    <hr size="3" noshade>
+
+    <!-- creating a ordered list -->
+    <h3>things i don't eat</h3>
+    <ol>
+        <li>fast foods</li>
+        <ol type="i">
+            <li>burger</li>
+            <li><a href="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=2000"
+                    target="_blank">pizza</a></li>
+            <li>french fries</li>
+        </ol>
+        <li>soft drinkd</li>
+        <ol start="101">
+            <li>fanta</li>
+            <li>mazza</li>
+            <li>mountain dew</li>
+        </ol>
+        <li>cookies</li>
+    </ol>
+
+    <hr size="3" noshade>
+
+    <h3><a href="contact_me.html" target="_blank">contact me</a></h3>
+
+    <hr size = "3" noshade>
+
+    <!-- table creation-->
+    <!-- table i am creating is without the borders because html is only about content. Borders will be dealt off in CSS-->
+   <h2>EDUCATION</h2>
+    <table >
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Study</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2006 - 2019</td>
+                <td>Hoshiarpur</td>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <td>Jalandhar</td>
+            </tr>
+            <tr>
+                <td>2021-2025</td>
+                <td>Chandigarh</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>2025-cont.</td>
+                <td>?</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>
